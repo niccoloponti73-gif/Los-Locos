@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Blocca accesso a file non pubblici
+Disallow: /assets/
+Disallow: /tmp/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://niccoloponti73-gif.github.io/Los-Locos/sitemap.xml
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
